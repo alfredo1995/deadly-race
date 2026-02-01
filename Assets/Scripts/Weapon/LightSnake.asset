@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd45dc6963fcd84294972f542590ac6, type: 3}
+  m_Name: LightSnake
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 5984181264327486113, guid: 05374d86564c70f40b4a704609f4b30b, type: 3}
+  icon: {fileID: 21300000, guid: e5f8e29c0eb39d74e9509b0469b5204c, type: 3}
+  isProjectile: 1
+  startingAmmo: 6
+  maxAmmo: 10
+  infiniteAmmo: 0
+  projectilePrefab: {fileID: 2866422828354133232, guid: 38d37174945359a4a96850c370c3224c, type: 3}
+  impactFX: {fileID: 100010, guid: 20d8a946a50cfd448b26a920d9c97c9b, type: 3}
+  projectileSpeed: 40000
+  shouldStopOnImpact: 1
+  shouldExplode: 0
+  explosionForce: 2500
+  explosionRadius: 5
+  hitForce: 80000
+  damage: 33
+  attackCooldownSeconds: 2.5
+  fireSound: {fileID: 8300000, guid: e87972eef043e5a4a9a5e28c803daf4d, type: 3}
+  impactSound: {fileID: 8300000, guid: fb58f9b24f9674548ad3cd36ec602215, type: 3}
